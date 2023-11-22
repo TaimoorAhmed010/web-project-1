@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Roboto+Mono', cursive;
+        color: bisque;
+        margin: 0px;
+        padding: 0px;
+        background: url('../img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        margin: 8px auto;
+        /* <border: 2px solid rgb(230, 40, 40);*/
+    }
+
+    .left img {
+        width: 95px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        color: aliceblue;
+        font-size: 10px;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 10px auto;
+        /* <border: 2px solid rgb(30, 255, 0); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        margin: 8px auto;
+        /* <border: 2px solid rgb(17, 0, 255); */
+    }
+
+    .btn {
+        margin: 0px;
+        padding: 3px 10px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: black;
+        color: aliceblue;
+        font-size: 10px;
+        font-family: 'Roboto+Mono', cursive;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: green;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .container {
+        color: #ffffff;
+        border: 2px solid white;
+        margin: 90px 15px;
+        padding: 60px;
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        font-family: 'Roboto+Mono', cursive;
+        text-align: center;
+        display: block;
+        padding: 1px;
+        margin: 11px auto;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+    .container h1{
+        text-align: center;
+        font-size: 20px;
+        margin: 30px 0px;
+    }
+    .container button{
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="../img/logo.jpg" alt="">
+            <div>
+                fitness center
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">CALL US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best GYM now karachi</h1>
+        <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Location">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Email ID">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Phone No">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+
+</body>
+
+</html>
